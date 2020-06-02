@@ -1,5 +1,5 @@
 # Nissan-Leaf-BatteryPairing
-Commands for pairing batteries. Totally untested, I cannot guarantee if this fixes or bricks your car.
+Commands for pairing batteries. Only works for 24->24kWh ZE0 (2011-2013) car & battery. Totally untested, I cannot guarantee if this fixes or bricks your car.
 
 # What is it for?
 Changing the main battery pack in a Nissan Leaf to another one results in the error code P3102, which cause turtle mode with reduced engine power (limp-mode). If this works then it should remove the P3102 code and allow for changing main batteries. 
