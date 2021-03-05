@@ -3,7 +3,11 @@
 Excel VBA macro that generates commands for pairing Nissan LEAF batteries. Works with ZE0 and AZE0 so far. However, I cannot guarantee if this fixes or bricks your car. In a worst case scenario you will have to visit a dealership and get it paired properly with expensive tools.
 
 # What is it for?
-Changing the main battery pack in a Nissan Leaf to another one results in the error code P3102, which cause turtle mode with reduced engine power (limp-mode). The file generated will remove the P3102 code and allow for changing main batteries. Note that this is only for direct swaps(24->24 or 30-30kWh), not for battery upgrades(24-30kWh)!
+Changing the main battery pack in a Nissan Leaf to another one results in the error code P3102, which cause turtle mode with reduced engine power (limp-mode). The file generated will remove the P3102 code and allow for changing main batteries. Note that this is only for direct swaps(ZE0 24->ZE0 24 or AZE0 30->AZE0 30kWh), not for battery upgrades(ZE0 24->AZE0 30kWh or ZE0 24->AZE0 24kWh)
+
+This script has been confirmed to work with the following vehicles:
+- Nissan Leaf (2011-2017) ZE0 and AZE0
+- Nissan e-nv200 (2014-2017)
 
 # How to use
 1. Read out your new battery ID with LEAFspy Pro BETA. Take an Android phone equipped with Leafspy Pro. Go to the Google playstore, and then to the Leafspy Pro page. Scroll down and apply to become a Beta tester. Then you will get the newest version, which can read out the battery ID. Open the app, and connect to the car. Go to the "ECU Versions" screen from the service menu, and take a screenshot of this page. The screenshot should look like this: https://dalasevrepair.fi/wp-content/uploads/2020/07/ID.png
